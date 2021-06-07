@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chan's GYm</title>
+    <!--폰트 링크-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet"/>
+    <!--아이콘 링크-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+    <!--css 주입-->
+    <link rel="stylesheet" href="style.css">
+    <!--js 주입-->
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!--nav 메뉴바-->
+    <nav class="navbar">
+        <div class="navbar_logo">
+            <i class="fas fa-dumbbell"></i>
+            <a href="Chan GYM.html">Chan's GYM</a>
+        </div>
+        <ul class="navbar_menu">
+            <li><a href="Chan GYM.html">Home</a></li>
+            <li><a href="#cont-left">Introduce</a></li>
+            <li><a href="Routine.html">Routine</a></li>
+            <li><a href="Video.html">Video</a></li>
+            <li><a href="#footer">Home Traning</a></li>
+        </ul>
+        <ul class="navbar_icons">
+            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></a></i></li>
+        </ul> 
+        <div class="navbar_toggleBtn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--Welcome to Chan's GYM header-->
+    <header id="header">
+        <p onmouseover="over(this)" onmouseout="out(this)">Welcome to Chan's GYM</p>
+        <div class="title">
+        </div>
+    </header>
+
+    <!--section-->
+    <div id="wrap">
+        <section id="contents">
+            <h2 class="ir"></h2>
+            <div class="container">
+                <!--cont-left-->
+                <section id="cont-left">
+                    <h2><a href="#cont-left"><i class="fas fa-hashtag"></i>Introduce</a></h2>
+                    <br>
+                    <img src="face.jpg">
+                    <br><br>
+                    <hr>
+                    <br>
+                    <p><i class="fas fa-check"></i>이름 : 홍찬의</p>
+                    <p><i class="fas fa-check"></i>나이 : 23살</p>
+                    <p>특징 : 헬린이<i class="fas fa-dumbbell"></i></p>
+                    <p>3대 : <i class="fas fa-question"></i><i class="fas fa-question"></i><i class="fas fa-question"></i> kg</p>
+                    <p style="color: rgba(241, 8, 8, 0.884);"><i class="fas fa-star"></i>목표<i class="fas fa-star"></i>  </p>
+                    <p>내년까지 열심히</p>
+                    <p>운동해서</p> 
+                    <p>바디프로필 찍기</p>
+                </section>
+                <!--cont-center-->                
+                <section id="cont-center">
+                    <div class="box">
+                        <a href="Routine.html"><i class="fas fa-hashtag"></i>My Routine</a>
+                    </div>
+                </section>
+                <!--cont-right-->
+                <section id="cont-right">
+                    <div class="box">
+                        <a href="Video.html"><i class="fas fa-hashtag"></i>YouTube<i class="fab fa-youtube"></i></a>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!--footer-->
+        <footer id="footer">
+            <div class="footer">
+                <h2><a href="#footer"><i class="fas fa-hashtag"></i>Home Training</a></h2>
+                <div class="picture">
+                    <a href="https://namu.wiki/w/%ED%8C%94%EA%B5%BD%ED%98%80%ED%8E%B4%EA%B8%B0"><img src="push up.jpg" alt="이미지"><em>팔굽혀펴기</em></a>
+                    <a href="https://namu.wiki/w/%ED%84%B1%EA%B1%B8%EC%9D%B4"><img src="full up.jpg" alt="이미지"><em>풀업</em></a>
+                    <a href="https://namu.wiki/w/%EC%8A%A4%EC%BF%BC%ED%8A%B8"><img src="squat.jpg" alt="이미지"><em>스쿼트</em></a>
+                    <a href="https://namu.wiki/w/%ED%81%AC%EB%9F%B0%EC%B9%98(%EB%AC%B4%EC%82%B0%EC%86%8C%20%EC%9A%B4%EB%8F%99)"><img src="crunch.jpg" alt="이미지"><em>크런치</em></a>
+                    <a href="https://namu.wiki/w/%ED%94%8C%EB%9E%AD%ED%81%AC"><img src="flank.jpg" alt="이미지"><em>플랭크</em></a>
+                    <audio id="music" autoplay controls>
+                        <source src="Dreams.mp3">
+                    </audio>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html> 
